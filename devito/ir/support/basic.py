@@ -436,7 +436,7 @@ class TimedAccess(IterationInstance, AccessMode):
                 # Writing (reading) over an entire dimension, reading (writing)
                 # from one point
 
-                # For example:s
+                # For example:
                 # self=R<u,[1,2]> and other=W<u,[1, y+1]>
                 elif (not i.is_Number or not j.is_Number):
                     import pdb; pdb.set_trace()
